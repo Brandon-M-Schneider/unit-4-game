@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crystal Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <h1 id="title">The Price is Right Collector!</h1>
+    <br><br><br><br><br><br><br>
+    <div id="instr-back">
+        <p id="instructions">You will be given a random "retail price" at the start of the game.<br><br>There are
+            four products below, each with their own hidden retail price. By clicking on a product you will add a specific amount of dollars to your total score.
+            <br><br> You win the game by matching your total score to the actual retail price listed above. You lose the game if your
+            total score goes above the retail price. <br><br>The value of each product is hidden from you until you
+            click on it.<br><br>Each time a new game of The Price is Right Collector starts, the values on the products change too! Come on Down!</p>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="target-back">
+        <p id="numGuess">Retail Price Target:<br><br> <span id="targetNumber"></span></p>
+    </div>
+
+    <div id="counter-back">
+        <p id="wins">Wins: <span id="winCounter"></span></p>
+        <p id="losses">Losses: <span id="lossCounter"></span></p>
+    </div>
+
+    <div id="score">
+        <p id="score-txt">Your total score is:</p>
+    </div>
+
+    <br><br><br><br>
+
+    <div id="score-back">
+        <div id="curScore"></div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="back">
+        <img class="cry-img" id="Prd1" src="assets/images/image_1.png" alt="Prd1">
+    </div>
+    <div class="back">
+        <img class="cry-img" id="Prd2" src="assets/images/image_2.jpg" alt="Prd2">
+    </div>
+    <div class="back">
+        <img class="cry-img" id="Prd3" src="assets/images/image_3.png" alt="Prd3">
+    </div>
+    <div class="back">
+        <img class="cry-img" id="Prd4" src="assets/images/image_4.jpeg" alt="Prd4">
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
